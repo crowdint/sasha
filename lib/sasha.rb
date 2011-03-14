@@ -1,4 +1,4 @@
-require 'rails'
+require 'action_controller'
 
 module Sasha
   class Git
