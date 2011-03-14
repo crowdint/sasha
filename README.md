@@ -9,13 +9,13 @@ git? rails?
 
 ## Usage
 
-### Rails 3 or Rails 2 with Bundler
+### Rails 3
 
 Add it to your Gemfile, you are using bundler, right?
 
     gem 'sasha'
 
-### Rails 2 (without bundler)
+### Rails 2
 
 Install the gem:
 
