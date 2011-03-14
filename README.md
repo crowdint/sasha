@@ -34,7 +34,11 @@ Require it on *config.ru* after sinatra/base
 
 ## Test it
 
-    $ curl -I http://www.example.net | grep X-Git-SHA
+    $ curl -I http://www.example.net | grep X-Git-Sha
+
+Your should see something like
+
+		X-Git-Sha: ae4822ddfdfbb27cddcc30b718d6f9bc99138044
 
 # About the Author
 
