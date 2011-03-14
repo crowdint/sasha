@@ -1,6 +1,7 @@
 require 'test_helper'
+require 'rails_helper'
 
-class TestController < ActionController::TestCase
+class TestRails < ActionController::TestCase
   def setup
     @controller = MyController.new
   end
