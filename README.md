@@ -15,6 +15,16 @@ Add it to your Gemfile, you are using bundler, right?
 
     gem 'sasha'
 
+### Rails 2 (without bundler)
+
+Install the gem:
+
+    gem install sasha
+
+Add to bottom of environment.rb:
+
+    require 'sasha'
+
 ## Test it
 
     $ curl -I http://www.example.net | grep X-Git-SHA
