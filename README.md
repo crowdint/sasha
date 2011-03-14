@@ -25,6 +25,13 @@ Add to bottom of environment.rb:
 
     require 'sasha'
 
+### Sinatra
+
+Require it on *config.ru* after sinatra/base
+
+    require 'sinatra/base'
+    require 'sasha'
+
 ## Test it
 
     $ curl -I http://www.example.net | grep X-Git-SHA
