@@ -1,11 +1,11 @@
 # Sasha
 
-Add your current Git SHA to your Rails app
+Add your current Git SHA to your Rails or Sinatra app
 response headers.
 
 ## Requirements
 
-git? rails?
+That you use git to track your source code
 
 ## Usage
 
