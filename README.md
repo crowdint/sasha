@@ -9,6 +9,8 @@ git? rails?
 
 ## Usage
 
+### Rails 3 or Rails 2 with Bundler
+
 Add it to your Gemfile, you are using bundler, right?
 
     gem 'sasha'

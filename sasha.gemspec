@@ -14,8 +14,7 @@ Gem::Specification.new do |s|
 
   s.rubyforge_project = "sasha"
 
-  s.add_dependency 'rails'
-
+  s.add_development_dependency 'rails'
   s.add_development_dependency 'minitest'
   s.add_development_dependency 'mocha'
 
