@@ -6,8 +6,8 @@ class TestController < ActionController::TestCase
   end
 
   def test_header_included_in_request
+    Sasha::Git.expects(:current_sha).returns('ABC123ABC123')
     get 'index'
-    puts response.headers['X-Git-SHA']
-    assert_not_nil response.headers['X-Git-SHA']
+    assert_equal 'ABC123ABC123', response.headers['X-Git-SHA']
   end
 end

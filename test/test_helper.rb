@@ -4,6 +4,8 @@ require 'minitest/autorun'
 require 'rails/all'
 require 'rails/test_help'
 
+require 'sasha'
+
 module Sasha
   class Application < Rails::Application ; end
 end
